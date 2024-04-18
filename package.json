@@ -1,13 +1,14 @@
 {
-  "name": "@./source",
-  "version": "0.0.0",
-  "license": "MIT",
-  "scripts": {},
-  "private": true,
-  "dependencies": {},
-  "devDependencies": {
-    "@nx/js": "18.3.1",
-    "@nx/workspace": "18.3.1",
-    "nx": "18.3.1"
-  }
+    "name": "@previous.js/source",
+    "version": "0.0.0",
+    "license": "MIT",
+    "scripts": {},
+    "private": true,
+    "dependencies": {},
+    "devDependencies": {
+        "@nx/js": "18.3.1",
+        "@nx/workspace": "18.3.1",
+        "nx": "18.3.1"
+    },
+    "packageManager": "npm@10.5.2"
 }

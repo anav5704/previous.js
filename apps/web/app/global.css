@@ -9,6 +9,13 @@
 }
 
 @layer components {
+	.text-gradient {
+		@apply bg-gradient-to-tr from-violet-700 to-rose-400 bg-clip-text text-transparent;
+	}
+
+	.bg-gradient {
+		@apply bg-gradient-to-tr from-violet-700 to-rose-400;
+	}
 }
 
 @later utilities {

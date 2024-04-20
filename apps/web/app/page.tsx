@@ -1,7 +1,9 @@
+import { Hero } from "@previous.js/shared-ui/server"
 
 export default function Home() {
     return (
         <>
+            <Hero />
             <section className="h-[100vh]" id="benchmarks">
                 <p>Benchmarks</p>
             </section>

@@ -11,14 +11,22 @@
         "skipLibCheck": true,
         "esModuleInterop": true,
         "lib": [
+            "DOM.Iterable",
             "ESNext",
             "DOM",
-            "DOM.Iterable"
         ],
         "importHelpers": true,
         "allowSyntheticDefaultImports": true,
         "resolveJsonModule": true,
-        "strict": true
+        "strict": true,
+        "paths": {
+            "@previous.js/shared-ui": [
+                "libs/shared/ui/src/index.ts"
+            ],
+            "@previous.js/shared-ui/server": [
+                "libs/shared/ui/src/server.ts"
+            ],
+        }
     },
     "exclude": [
         "node_modules"

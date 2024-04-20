@@ -22,7 +22,7 @@ export const CopyCode = ({ code }: CopyCodeProps) => {
     return (
         <button
             onClick={handleCopy}
-            className="font-GeistMono text-md text-sm text-zinc-500 flex items-center gap-2"
+            className="p-2 font-GeistMono text-md text-sm text-zinc-500 flex items-center gap-2"
         >
             ~ {code}
             {copied ? <Check size={18} /> : <Copy size={18} />}

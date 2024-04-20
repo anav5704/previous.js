@@ -1,23 +1,38 @@
-import { Hero } from "@previous.js/shared-ui/server"
+import { Hero, SubHeading } from "@previous.js/shared-ui/server"
 
 export default function Home() {
     return (
         <>
             <Hero />
             <section className="h-[100vh]" id="benchmarks">
-                <p>Benchmarks</p>
+                <SubHeading>
+                    Mind Blowing Build Times
+                </SubHeading>
             </section>
+
+
             <section className="h-[100vh]" id="clients">
-                <p>clients</p>
+                <SubHeading>
+                    Trusted by Tech Giants
+                </SubHeading>
             </section>
+
             <section className="h-[100vh]" id="features">
-                <p>features</p>
+                <SubHeading>
+                    Why Developers Love Previous.js
+                </SubHeading>
             </section>
+
             <section className="h-[100vh]" id="templates">
-                <p>templates</p>
+                <SubHeading>
+                    Get up and Running
+                </SubHeading>
             </section>
+
             <section className="h-[100vh]" id="showcase">
-                <p>showcase</p>
+                <SubHeading>
+                    What the Community has Built
+                </SubHeading>
             </section>
         </>
     )

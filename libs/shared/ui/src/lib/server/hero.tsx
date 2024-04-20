@@ -3,13 +3,11 @@ import { Button } from "@previous.js/shared-ui/server"
 
 export const Hero = () => {
     return (
-        <section className="text-center flex flex-col items-center gap-8 my-36">
-            <h1 className="text-6xl font-extrabold">
+        <section className=" text-center flex flex-col items-center gap-8 my-36">
+            <h1 className="text-gradient-white text-6xl font-extrabold">
                 A Web Framework
                 <br />
-                <span className="text-gradient">Better </span>
-                than the
-                <span className="text-gradient"> Best</span>
+                Better Than The Best
             </h1>
 
             <p className="text-xl text-zinc-500">
@@ -35,6 +33,7 @@ export const Hero = () => {
                     Learn Previous.js
                 </Button>
             </div>
+
             <CopyCode code="npm create-previous-app@latest" />
         </section>
     )

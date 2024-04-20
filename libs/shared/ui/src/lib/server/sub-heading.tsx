@@ -1,11 +1,11 @@
 interface SubHeadingProps {
-    content: string
+    children: React.ReactNode
 }
 
-export const SubHeading = ({ content }: SubHeadingProps) => {
+export const SubHeading = ({ children }: SubHeadingProps) => {
     return (
-        <h2>
-            {content}
+        <h2 className="text-gradient-white text-center text-4xl font-extrabold">
+            {children}
         </h2>
     )
 }

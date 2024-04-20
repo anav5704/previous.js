@@ -1,4 +1,6 @@
 import { Nav } from "@previous.js/shared-ui/server"
+import { GeistMono } from "geist/font/mono"
+import { GeistSans } from "geist/font/sans"
 import logo from "../public/logo.png"
 import "./global.css"
 
@@ -10,11 +12,9 @@ export const metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
     return (
         <html lang="en">
-            <body className="bg-black text-white">
+            <body className={`${GeistSans.variable} ${GeistMono.variable} bg-black text-white font-GeistSans`}>
                 <Nav logo={logo} />
-                <main className="pt-14">
-                    {children}
-                </main>
+                <main className="pt-14">{children}</main>
             </body>
         </html>
     )

@@ -17,7 +17,7 @@ export const Nav = ({ logo }: NavProps) => {
                         height={25}
                         width={25}
                     />
-                    Previous.js
+                    Previous JS
                 </div>
                 <div className="flex items-center gap-12">
                     <NavLinks />

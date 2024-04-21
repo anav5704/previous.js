@@ -20,6 +20,10 @@
 	.text-gradient-white {
 		@apply bg-gradient-to-br from-white to-zinc-500 bg-clip-text text-transparent;
 	}
+
+	.bg-gradient-white {
+		@apply bg-gradient-to-t from-zinc-900 to-[rgba(225,225,225,0)];
+	}
 }
 
 @later utilities {

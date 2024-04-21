@@ -7,7 +7,7 @@ interface NavProps {
 
 export const Nav = ({ logo }: NavProps) => {
     return (
-        <nav className="bg-black/75 fixed w-screen backdrop-blur-[3px] h-14 flex border-b border-zinc-800">
+        <nav className="bg-black/75 fixed w-screen backdrop-blur-sm h-14 flex border-b border-zinc-800">
             <Container className="flex items-center justify-between">
                 <div className="flex items-center gap-3">
                     <Image

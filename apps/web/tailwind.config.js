@@ -12,6 +12,15 @@ module.exports = {
             fontFamily: {
                 GeistSans: ['var(--font-geist-sans)'],
                 GeistMono: ['var(--font-geist-mono)'],
+            },
+            animation: {
+                'infinite-scroll': 'infinite-scroll 10s linear infinite',
+            },
+            keyframes: {
+                'infinite-scroll': {
+                    from: { transform: 'translateX(0)' },
+                    to: { transform: 'translateX(-100%)' },
+                }
             }
         },
     },

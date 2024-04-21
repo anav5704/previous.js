@@ -1,4 +1,4 @@
-import { Nav } from "@previous.js/shared-ui/server"
+import { Footer, Nav } from "@previous.js/shared-ui/server"
 import { GeistMono } from "geist/font/mono"
 import { GeistSans } from "geist/font/sans"
 import logo from "../public/logo.png"
@@ -15,6 +15,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             <body className={`${GeistSans.variable} ${GeistMono.variable} bg-black text-white font-GeistSans`}>
                 <Nav logo={logo} />
                 <main className="pt-14">{children}</main>
+                <Footer logo={logo} />
             </body>
         </html>
     )

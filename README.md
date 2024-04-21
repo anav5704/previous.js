@@ -12,4 +12,4 @@
 -   [ ] Web - Social Proof
 -   [ ] Web - Template Examples
 -   [ ] Web - CTA
--   [ ] Web - Footer
+-   [x] Web - Footer

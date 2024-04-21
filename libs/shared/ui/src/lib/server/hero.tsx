@@ -3,8 +3,8 @@ import { Button } from "@previous.js/shared-ui/server"
 
 export const Hero = () => {
     return (
-        <section className=" text-center flex flex-col items-center gap-8 mt-36">
-            <h1 className="z-10 relative text-gradient-white text-6xl font-extrabold">
+        <section className="text-center flex flex-col items-center gap-8 mt-36">
+            <h1 className="text-gradient-white text-6xl font-extrabold">
                 A Web Framework
                 <br />
                 Better Than The Best

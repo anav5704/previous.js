@@ -22,7 +22,7 @@
 	}
 
 	.bg-gradient-white {
-		@apply bg-gradient-to-t from-zinc-900 to-[rgba(225,225,225,0)];
+		@apply bg-gradient-to-t from-zinc-900/50 to-[rgba(225,225,225,0)];
 	}
 }
 

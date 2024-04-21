@@ -4,8 +4,8 @@
 
 ## Todo:
 
--   [ ] Web - Navigation
--   [ ] Web - Hero
+-   [x] Web - Navigation
+-   [x] Web - Hero
 -   [ ] Web - Benchmarks
 -   [ ] Web - Clients
 -   [ ] Web - Features Bento

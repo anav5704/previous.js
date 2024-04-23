@@ -4,21 +4,20 @@ export default function Home() {
     return (
         <>
             <Hero />
+
+            <section id="clients">
+                <SubHeading>
+                    Trusted by The Largest Teams
+                </SubHeading>
+                <Clients />
+            </section>
+
             <section id="features">
                 <SubHeading>
                     Why Developers Love Previous.js
                 </SubHeading>
                 <Container>
                     <Features />
-                </Container>
-            </section>
-
-            <section id="clients">
-                <SubHeading>
-                    Trusted by Open-Source Giants
-                </SubHeading>
-                <Container>
-                    <Clients />
                 </Container>
             </section>
 

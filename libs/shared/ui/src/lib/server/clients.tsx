@@ -16,18 +16,33 @@ const logos = [Astro, Next, Clerk, Epic, Svelte, Firefox, AlienWare, Supabase, S
 
 export const Clients = () => {
     return (
-        <div className="grid grid-cols-6 pt-5 gap-16">
-            {logos.map((logo, index) => (
-                <div key={index} className="col-span-1">
-                    <Image
-                        src={logo}
-                        alt="Logo"
-                        height={50}
-                        width={50}
-                        quality={100}
-                    />
-                </div>
-            ))}
-        </div>
+        <div className="relative fade w-full inline-flex flex-nowrap overflow-hidden">
+            <ul className="flex items-center justify-center md:justify-start [&_li]:mx-16 [&_img]:max-w-none animate-infinite-scroll-left">
+                {logos.map((logo, index) => (
+                    <li key={`first-logo-${index}`} className="col-span-1">
+                        <Image
+                            src={logo}
+                            alt="Logo"
+                            height={50}
+                            width={50}
+                            quality={100}
+                        />
+                    </li>
+                ))}
+            </ul >
+            <ul className="flex items-center justify-center md:justify-start [&_li]:mx-16 [&_img]:max-w-none animate-infinite-scroll-left">
+                {logos.map((logo, index) => (
+                    <li key={`second-logo-${index}`} className="col-span-1">
+                        <Image
+                            src={logo}
+                            alt="Logo"
+                            height={50}
+                            width={50}
+                            quality={100}
+                        />
+                    </li>
+                ))}
+            </ul >
+        </div >
     )
 }

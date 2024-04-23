@@ -14,8 +14,8 @@ module.exports = {
                 GeistMono: ['var(--font-geist-mono)'],
             },
             animation: {
-                'infinite-scroll-left': 'scroll-left 25s linear infinite',
-                'infinite-scroll-right': 'scroll-right 25s linear infinite',
+                'infinite-scroll-left': 'scroll-left 50s linear infinite',
+                'infinite-scroll-right': 'scroll-right 50s linear infinite',
             },
             keyframes: {
                 'scroll-left': {

@@ -24,6 +24,10 @@
 	.bg-gradient-white {
 		@apply bg-gradient-to-t from-zinc-900/50 to-[rgba(225,225,225,0)];
 	}
+
+	.fade {
+		@apply after:absolute after:top-0 after:left-0 after:bg-gradient-to-r after:from-black after:via-transparent after:to-black after:h-full after:w-screen;
+	}
 }
 
 @later utilities {

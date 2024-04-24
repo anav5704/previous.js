@@ -10,13 +10,14 @@ export const Footer = ({ logo }: FooterProps) => {
         <footer className="border-t border-zinc-800 w-screen py-10 mt-40">
             <Container className="flex justify-between h-full">
                 <div className="flex flex-col justify-between grow">
-                    <div className="flex items-center gap-3">
+                    <div className="flex items-center gap-2">
                         <Image
                             src={logo}
                             alt="Previous.js Logo"
+                            className="logo"
                             quality={10}
-                            height={85}
-                            width={18}
+                            height={25}
+                            width={25}
                         />
                         Previous JS
                     </div>

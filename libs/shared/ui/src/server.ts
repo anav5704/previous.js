@@ -10,4 +10,6 @@ export * from "./lib/server/hero"
 export * from "./lib/server/nav"
 export * from "./lib/server/nav-links"
 export * from "./lib/server/sub-heading"
+export * from "./lib/server/template-card"
+export * from "./lib/server/templates"
 

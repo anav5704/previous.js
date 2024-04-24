@@ -6,10 +6,8 @@
 
 -   [x] Web - Navigation
 -   [x] Web - Hero
--   [ ] Web - Benchmarks
--   [ ] Web - Clients
+-   [x] Web - Clients
 -   [ ] Web - Features Bento
--   [ ] Web - Social Proof
--   [ ] Web - Template Examples
+-   [x] Web - Template Examples
 -   [ ] Web - CTA
 -   [x] Web - Footer

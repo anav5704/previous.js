@@ -1,4 +1,4 @@
-import { Clients, Container, Features, Hero, SubHeading } from "@previous.js/shared-ui/server"
+import { Clients, Container, Features, Hero, SubHeading, Templates } from "@previous.js/shared-ui/server"
 
 export default function Home() {
     return (
@@ -23,14 +23,11 @@ export default function Home() {
 
             <section id="templates">
                 <SubHeading>
-                    Get up and Running
+                    Start Building in Seconds
                 </SubHeading>
-            </section>
-
-            <section id="showcase">
-                <SubHeading>
-                    What the Community has Built
-                </SubHeading>
+                <Container>
+                    <Templates />
+                </Container>
             </section>
         </>
     )

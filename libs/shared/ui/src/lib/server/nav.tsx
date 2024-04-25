@@ -1,5 +1,6 @@
-import { Container, NavLinks } from "@previous.js/shared-ui/server"
+import { Container, GitHubStars, NavLinks } from "@previous.js/shared-ui/server"
 import Image, { StaticImageData } from "next/image"
+import Link from "next/link"
 
 interface NavProps {
     logo: StaticImageData
@@ -9,7 +10,7 @@ export const Nav = ({ logo }: NavProps) => {
     return (
         <nav className="z-50 bg-black/75 fixed w-screen backdrop-blur-sm h-14 flex border-b border-zinc-800">
             <Container className="flex items-center justify-between">
-                <div className="flex items-center gap-2">
+                <Link href="/" className="flex items-center gap-2">
                     <Image
                         src={logo}
                         alt="Previous.js Logo"
@@ -19,12 +20,12 @@ export const Nav = ({ logo }: NavProps) => {
                         width={25}
                     />
                     Previous JS
-                </div>
+                </Link>
                 <div className="flex items-center gap-12">
                     <NavLinks />
                 </div>
                 <div>
-                    CTA
+                    <GitHubStars />
                 </div>
             </Container>
         </nav>

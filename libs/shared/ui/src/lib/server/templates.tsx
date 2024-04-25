@@ -1,5 +1,6 @@
 import Firebase from "../../assets/firebase.svg"
 import Gemini from "../../assets/gemini.svg"
+import GraphQL from "../../assets/graphql.svg"
 import NX from "../../assets/nx.svg"
 import OpenAI from "../../assets/openai.svg"
 import PayPal from "../../assets/paypal.svg"
@@ -9,7 +10,6 @@ import SocketIO from "../../assets/socketio.svg"
 import Stripe from "../../assets/stripe.svg"
 import Supbabase from "../../assets/supabase.svg"
 import TurboRepo from "../../assets/turborepo.svg"
-import Upstash from "../../assets/upstash.svg"
 
 import { TemplateCard } from "./template-card"
 
@@ -37,8 +37,8 @@ export const Templates = () => {
         },
         {
             title: "Realtime App Starter",
-            description: "Quickly fire up serverless or server-ful realtime apps with either the Upstash suite or good old Web Sockets.",
-            icons: [Upstash, SocketIO]
+            description: "Quickly fire up fast and realtime apps with either the GraphQL live queries or good old Web Sockets.",
+            icons: [SocketIO, GraphQL]
         },
         {
             title: "Monorepo Starter",

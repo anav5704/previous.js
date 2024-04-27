@@ -7,7 +7,7 @@ interface FooterProps {
 
 export const Footer = ({ logo }: FooterProps) => {
     return (
-        <footer className="border-t border-zinc-800 w-screen py-10 mt-40">
+        <footer className="border-t border-zinc-800 w-screen py-10">
             <Container className="flex justify-between h-full">
                 <div className="flex flex-col justify-between grow">
                     <div className="flex items-center gap-2">

@@ -1,18 +1,18 @@
-import { Clients, Container, Features, Hero, SubHeading, Templates } from "@previous.js/shared-ui/server"
+import { Clients, Container, Features, GlobeCTA, Hero, SubHeading, Templates } from "@previous.js/shared-ui/server"
 
 export default function Home() {
     return (
         <>
             <Hero />
 
-            <section id="clients">
+            <section className=" mt-36" id="clients">
                 <SubHeading>
                     Trusted by The Largest Teams
                 </SubHeading>
                 <Clients />
             </section>
 
-            <section id="features">
+            <section className=" mt-36" id="features">
                 <SubHeading>
                     Why Developers Love Previous.js
                 </SubHeading>
@@ -21,13 +21,17 @@ export default function Home() {
                 </Container>
             </section>
 
-            <section id="templates">
+            <section className=" mt-36" id="templates">
                 <SubHeading>
                     Start Building in Seconds
                 </SubHeading>
                 <Container>
                     <Templates />
                 </Container>
+            </section>
+
+            <section>
+                <GlobeCTA />
             </section>
         </>
     )

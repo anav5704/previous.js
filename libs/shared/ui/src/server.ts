@@ -2,6 +2,7 @@
 
 export * from "./lib/server/button"
 export * from "./lib/server/clients"
+export * from "./lib/server/commits"
 export * from "./lib/server/container"
 export * from "./lib/server/features"
 export * from "./lib/server/file-grid"

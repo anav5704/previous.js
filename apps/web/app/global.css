@@ -40,3 +40,15 @@
 
 @later utilities {
 }
+
+@keyframes pulse {
+	0% {
+		background-color: #18181b;
+	}
+	50% {
+		background-color: white;
+	}
+	100% {
+		background-color: #18181b;
+	}
+}

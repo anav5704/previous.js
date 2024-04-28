@@ -1,11 +1,10 @@
 interface SubHeadingProps {
     children: React.ReactNode,
-    noMargin?: boolean,
 }
 
-export const SubHeading = ({ children, noMargin }: SubHeadingProps) => {
+export const SubHeading = ({ children }: SubHeadingProps) => {
     return (
-        <h2 className={`${!noMargin && "mb-10"} text-gradient-white text-center text-4xl font-extrabold`}>
+        <h2 className="text-gradient-white text-center text-4xl font-extrabold mb-10 mt-36">
             {children}
         </h2>
     )

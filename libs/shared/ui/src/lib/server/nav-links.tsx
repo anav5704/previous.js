@@ -3,14 +3,6 @@ import Link from "next/link"
 export const NavLinks = () => {
     const links = [
         {
-            label: "Showcase",
-            href: "#showcase"
-        },
-        {
-            label: "Benchmarks",
-            href: "#benchmarks"
-        },
-        {
             label: "Clients",
             href: "#clients"
         },

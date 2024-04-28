@@ -8,9 +8,9 @@ export const FileGrid = () => {
     return (
         <div className="grid gap-5 mb-5">
             {rows.map((row) => (
-                <div key={row} className='relative w-full inline-flex gap-5 flex-nowrap'>
+                <div key={row} className='relative w-full inline-flex  flex-nowrap'>
                     {loops.map((loop) => (
-                        <ul key={loop} className={`${row % 2 == 0 ? "animate-infinite-scroll-left" : "animate-infinite-scroll-right"} gap-5 flex items-center justify-center md:justify-start`}>
+                        <ul key={loop} className={`${row % 2 == 0 ? "animate-infinite-scroll-left" : "animate-infinite-scroll-right"} [&_li]:mx-2.5 flex items-center justify-center md:justify-start`}>
                             {cols.map((col) => (
                                 <li key={col} className='p-3 border hover:border-white transition border-zinc-800 bg-zinc-900 rounded-lg w-fit'>
                                     {row % 2 == 0 ?

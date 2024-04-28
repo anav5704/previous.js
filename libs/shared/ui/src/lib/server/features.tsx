@@ -23,11 +23,11 @@ export const Features = () => {
                     <h4 className="text-2xl font-semibold">Deploy Anywhere</h4>
                     <p className="text-zinc-500">Build apps that can be easily deployed on any cloud infrastructure.</p>
                 </div>
-                <div className="absolute top-20">
+                <div className="absolute top-14">
                     <Globe />
                 </div>
             </div>
-            <div className="col-span-2 h-72  border border-zinc-800 rounded-2xl bg-gradient-white">
+            <div className="col-span-2  border border-zinc-800 rounded-2xl bg-gradient-white">
                 <div className="p-5">
                     <h4 className="text-2xl font-semibold">Seamless Integration</h4>
                     <p className="text-zinc-500">Extend and automate your workflow by using integrations for your favorite libraries, utilities, ORMs and databases.</p>

@@ -11,7 +11,7 @@ export const metadata = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
     return (
-        <html lang="en">
+        <html lang="en" className="no-scrollbar">
             <body className={`${GeistSans.variable} ${GeistMono.variable} bg-black text-white font-GeistSans`}>
                 <Nav logo={logo} />
                 <main className="pt-14">{children}</main>

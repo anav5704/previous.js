@@ -3,6 +3,10 @@
 @tailwind utilities;
 
 @layer base {
+	::-webkit-scrollbar {
+		display: none !important; /* Chrome */
+	}
+
 	html {
 		@apply scroll-smooth;
 	}
@@ -36,9 +40,11 @@
 	.logo {
 		@apply border border-zinc-800 p-1 rounded-md bg-gradient-to-t from-zinc-900 to-[rgba(225,225,225,0)];
 	}
-}
 
-@later utilities {
+	.no-scrollbar {
+		-ms-overflow-style: none !important; /* Edge */
+		scrollbar-width: none !important; /* Firefox */
+	}
 }
 
 @keyframes pulse {

@@ -3,7 +3,7 @@ import { Commits, FileGrid } from "@previous.js/shared-ui/server"
 
 export const Features = () => {
     return (
-        <div className="grid grid-cols-3 gap-5">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
             <div className="overflow-hidden col-span-1 border border-zinc-800 rounded-2xl bg-gradient-white">
                 <div className="p-5">
                     <h4 className="text-2xl font-semibold">File-Based Routing</h4>
@@ -18,7 +18,7 @@ export const Features = () => {
                 </div>
                 <Commits />
             </div>
-            <div className="relative overflow-hidden col-span-1 row-span-2 border border-zinc-800 rounded-2xl bg-gradient-white">
+            <div className="relative overflow-hidden col-span-1 row-span-1 md:row-span-2 border border-zinc-800 rounded-2xl bg-gradient-white">
                 <div className="p-5">
                     <h4 className="text-2xl font-semibold">Deploy Anywhere</h4>
                     <p className="text-zinc-500">Build apps that can be easily deployed on any cloud infrastructure.</p>
@@ -27,7 +27,7 @@ export const Features = () => {
                     <Globe />
                 </div>
             </div>
-            <div className="col-span-2  border border-zinc-800 rounded-2xl bg-gradient-white">
+            <div className="col-span-1 md:col-span-2  border border-zinc-800 rounded-2xl bg-gradient-white">
                 <div className="p-5">
                     <h4 className="text-2xl font-semibold">Seamless Integration</h4>
                     <p className="text-zinc-500">Extend and automate your workflow by using integrations for your favorite libraries, utilities, ORMs and databases.</p>

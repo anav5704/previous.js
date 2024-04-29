@@ -3,7 +3,9 @@ import { Clients, Container, Features, Hero, SubHeading, Templates } from "@prev
 export default function Home() {
     return (
         <>
-            <Hero />
+            <Container>
+                <Hero />
+            </Container>
 
             <section id="clients">
                 <SubHeading>

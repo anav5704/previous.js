@@ -5,7 +5,7 @@ export const Commits = () => {
     const getRandomDelay = () => Math.random() * 5
 
     return (
-        <div className="group-hover:opacity-100 transition duration-1000 px-5 flex flex-col opacity-25 grow justify-between pb-5">
+        <div className="gap-3 md:gap-0 group-hover:opacity-100 transition duration-1000 px-5 flex flex-col opacity-25 grow justify-between pb-5">
             {rows.map((row) => (
                 <div key={row} className='flex justify-between'>
                     {commits.map((_, index) => (

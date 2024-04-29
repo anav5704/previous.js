@@ -22,7 +22,7 @@ export const NavLinks = () => {
                 <Link
                     key={index}
                     href={link.href}
-                    className="text-sm text-zinc-500 hover:text-white transition-colors"
+                    className="hidden md:block text-sm text-zinc-500 hover:text-white transition-colors"
                 >
                     {link.label}
                 </Link>

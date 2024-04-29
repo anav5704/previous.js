@@ -8,8 +8,8 @@ interface FooterProps {
 export const Footer = ({ logo }: FooterProps) => {
     return (
         <footer className="border-t border-zinc-800 w-screen py-10 mt-36">
-            <Container className="flex justify-between h-full">
-                <div className="flex flex-col justify-between grow">
+            <Container className="flex flex-col md:flex-row justify-between h-full">
+                <div className="flex flex-row md:flex-col justify-between grow">
                     <div className="flex items-center gap-2">
                         <Image
                             src={logo}
@@ -32,7 +32,7 @@ export const Footer = ({ logo }: FooterProps) => {
                         </a>
                     </p>
                 </div>
-                <div className="flex">
+                <div className="flex justify-between mt-20 md:mt-0">
                     <FooterLinks />
                 </div>
             </Container>

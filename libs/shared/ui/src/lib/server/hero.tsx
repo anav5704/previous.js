@@ -4,15 +4,15 @@ import { Button } from "@previous.js/shared-ui/server"
 export const Hero = () => {
     return (
         <section className="text-center flex flex-col items-center gap-8 mt-36">
-            <h1 className="text-gradient-white text-6xl font-extrabold">
+            <h1 className="text-gradient-white text-4xl md:text-6xl font-extrabold">
                 A Web Framework
                 <br />
                 Better Than The Best
             </h1>
 
-            <p className="text-xl text-zinc-500">
+            <p className="lext-lg md:text-xl text-zinc-500">
                 Used by some of the world's largest companies, Previous.js enables you to create
-                <br />
+                <br className="hidden md:block" />
                 <span className="text-white">high-quality web applications </span>
                 with the power of HTML & CSS.
             </p>

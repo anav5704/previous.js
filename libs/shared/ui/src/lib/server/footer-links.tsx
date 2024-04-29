@@ -70,7 +70,7 @@ export const FooterLinks = () => {
             {links.map((link, index) => (
                 <div
                     key={"link-" + index}
-                    className="ml-28"
+                    className="md:ml-28"
                 >
                     <h4 className="mb-4">
                         {link.title}

@@ -5,7 +5,7 @@ interface ContainerProps {
 
 export const Container = ({ children, className }: ContainerProps) => {
     return (
-        <section className={`${className} mx-auto w-3/4`}>
+        <section className={`${className} mx-auto w-5/6 md:w-3/4 max-w-[1080px]`}>
             {children}
         </section>
     )
